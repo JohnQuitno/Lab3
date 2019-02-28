@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title> Text Editor </title>
+	</head>
+
+	<body>
+        <p id="dummytext" style="color:black; border-style: solid">
+            This is dummy text
+        </p>
+        <p>
+									 <p> Enter your color for the background </p>
+                   <input type="text" id="r"> Red (0-255) </input><br />
+                   <input type="text" id="g"> Green (0-255)  </input><br />
+                   <input type="text" id="b"> Blue (0-255) </input><br />
+                   <button onclick="textColor()">Enter</button><br />
+									 <p> Enter your color and width for the border </p>
+                   <input type="text" id="rb"> Red (0-255) </input><br />
+                   <input type="text" id="gb"> Green (0-255) </input><br />
+                   <input type="text" id="bb"> Blue (0-255) </input><br />
+                   <input type="text" id="width"> Width (px)</input><br />
+                   <button onclick="border()" value="validate">Enter</button><br />
+
+        </p>
+				<script type="text/javascript" src="ColorChange.js"> </script><br />
+	</body>
+</html>
