@@ -1,4 +1,4 @@
-let images =['/home/j073q846/EECS448/Lab3/Exercise2/images/1.jpeg','/home/j073q846/EECS448/Lab3/Exercise2/images/2.jpeg','/home/j073q846/EECS448/Lab3/Exercise2/images/3.jpeg','/home/j073q846/EECS448/Lab3/Exercise2/images/4.jpeg','/home/j073q846/EECS448/Lab3/Exercise2/images/5.jpeg',]
+let images =['./images/1.jpeg','./images/2.jpeg','./images/3.jpeg','./images/4.jpeg','./images/5.jpeg',]
 let index=0;
 
 
